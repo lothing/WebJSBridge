@@ -13,7 +13,7 @@ PPDBLJSBHandler(test, PPDTestHandler);
 - (void)handlerWithData:(id)data responseCallback:(PPDJSBResponseCallback)responseCallback {
     [super handlerWithData:data responseCallback:responseCallback];
 
-    [self responseWithStatus:PPDJSBResponseStatusSUCCESS data:@{@"name":@"wanyakun"}];
+    [self responseWithStatus:PPDJSBResponseStatusSUCCESS data:@{@"name":@"xiaoli"}];
 
 }
 
@@ -35,7 +35,7 @@ PPDBLJSBHandler(getUserInfo, PPDGetUserInfoHandler);
 - (void)handlerWithData:(id)data responseCallback:(PPDJSBResponseCallback)responseCallback {
     [super handlerWithData:data responseCallback:responseCallback];
 
-    [self responseWithStatus:PPDJSBResponseStatusSUCCESS data:@"wanyakun"];
+    [self responseWithStatus:PPDJSBResponseStatusSUCCESS data:@"xiaoli"];
 
 }
 

@@ -12,5 +12,6 @@
 @interface WKWebViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet WKWebView *webView;
+@property (nonatomic, strong) PPDBLWebViewJSBridge *bridge;
 
 @end

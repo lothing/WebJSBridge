@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIWebViewController : UIViewController
+@interface UIWebViewController : UIViewController<UIWebViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
+@property (nonatomic, strong) PPDBLWebViewJSBridge *bridge;
 
 @end

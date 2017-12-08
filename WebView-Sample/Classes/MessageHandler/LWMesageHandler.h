@@ -5,10 +5,6 @@
 
 #import <Foundation/Foundation.h>
 
-@import PPDBLWebViewJSBridge;
-@import PPDBLRouter;
-@import PPDBLUtils;
-
 #pragma mark - 获取用户信息
 @interface PPDTestHandler : PPDBLBaseJSBMessageHandler
 

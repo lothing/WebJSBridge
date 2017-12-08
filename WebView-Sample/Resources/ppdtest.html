@@ -1,0 +1,65 @@
+<html>
+<head>
+  <title>PPDJSBridge-Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <script src="ppd-bridge-0.0.1.js"></script>
+  <script src="ppdtest.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="ppdtest.css">
+</head>
+
+<body>
+  <script>
+  ppd.config({
+             debug: true,
+             appId: '',
+             timestamp: '',
+             nonceStr: '',
+             signature: '',
+             jsApiList: []
+             });      
+  </script>
+<fieldset>
+  <legend>页面跳转</legend>
+  <input type="button" value="使用内部URL统跳到H5首页" id="h5Page" onclick="ppdTest.h5HomePage()">
+  <input type="button" value="使用外部URL跳转到H5首页" id="urlPage" onclick="ppdTest.urlPage()">
+</fieldset>
+<fieldset>
+  <legend>页面控制</legend>
+  <input type="button" value="pushWindow" id="pushWindow" onclick="ppdTest.pushWindow()">
+  <input type="button" value="popWindow" id="popWindow" onclick="ppdTest.popWindow()">
+  <input type="button" value="页面前进" id="forward">
+  <input type="button" value="页面回退" id="back">
+  <input type="button" value="页面关闭" id="close">
+</fieldset>
+<fieldset>
+  <legend>界面设置</legend>
+  <input type="button" value="设置顶部NavigationBar" id="titleBar" onclick="ppdTest.titleBar()">
+</fieldset>
+<fieldset>
+  <legend>常用功能</legend>
+  <input type="button" value="页面跳转" id="pushWindow">
+  <input type="button" value="设置标题" id="setWindowTitle">
+  <input type="button" value="分享" id="share">
+  <input type="button" value="获取CustomerId" id="customerId">
+  <input type="button" value="获取UserKey" id="userKey">
+  <input type="button" value="获取Token" id="token">
+  <input type="button" value="设置UserKey" id="setUserKey">
+  <input type="button" value="设置Token" id="setToken">
+  <input type="button" value="获取app版本" id="appVersion">
+  <input type="button" value="登录" id="userLogin", onclick="ppdTest.userLogin()">
+  <input type="button" value="拨打电话" id="call">
+  <input type="button" value="设置分享按钮" id="setShareButton">
+  <input type="button" value="添加到购物车" id="addToCart">
+  <input type="button" value="提示更新App" id="alertUpdate">
+  <input type="button" value="设置首页导航" id="setAppHomeNav">
+  <input type="button" value="刷新购物车信息" id="refresCartInfo">
+  <input type="button" value="设置购物车按钮" id="setCartButton">
+  <input type="button" value="设置返回按钮" id="setBackButton">
+  <input type="button" value="Native页面返回" id="nativeBack">
+  <input type="button" value="返回Tabbar" id="popToRootWindow">
+  <input type="button" value="获取IDFA" id="idfa">
+</fieldset>
+
+</body>
+</html>
