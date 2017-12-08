@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript">
+        function showAlert(message){
+            alert(message);
+        }
+
+        function loadURL(url) {
+            var iFrame;
+            iFrame = document.createElement("iframe");
+            iFrame.setAttribute("src", url);
+            iFrame.setAttribute("style", "display:none;");
+            iFrame.setAttribute("height", "0px");
+            iFrame.setAttribute("width", "0px");
+            iFrame.setAttribute("frameborder", "0");
+            document.body.appendChild(iFrame);
+            // 发起请求后这个 iFrame 就没用了，所以把它从 dom 上移除掉
+            iFrame.parentNode.removeChild(iFrame);
+            iFrame = null;
+        }
+        function firstClick() {
+            loadURL("jsCall://shareClick?title=URL—Scheme调原生&content=分享的内容&url=链接地址&imagePath=图片地址");
+        }
+
+        function secondClick() {
+            share('JSCore调原生','分享的内容','图片地址');
+        }
+
+        function locationClick() {
+            loadURL("jscall://getLocation");
+        }
+        function setLocation(location) {
+            document.getElementById("returnValue").value = location;
+        }
+
+        function sendMessage(message) {
+            window.webkit.messageHandlers.webViewApp.postMessage(message);
+        }
+
+    </script>
+</header>
+
+<body>
+
+<h2> 通过URL scheme调原生 </h2>
+<br/>
+<button type="button" onclick="firstClick()">Click Me!</button>
+
+<br/><br/><br/>
+
+<h2> 通过JavaScriptCore调原生 </h2>
+<br/>
+<button type="button" onclick="secondClick()">Click Me!</button>
+
+<hr/>
+
+
+
+<h3>这是js调用原生后，原生再结果返回给web页面</h3><br/>
+<input type="button" value="获取定位" onclick="locationClick()" /><br/>
+<textarea id ="returnValue" type="value" rows="5" cols="50"></textarea>
+
+<br/>
+
+<h3>WKWebView 的 WKScriptMessageHandler 处理js调用</h3>
+<input type="button" value="sendDictionaryMessage" onclick="sendMessage({name:'web消息',text:'哈哈哈哈'})" /><br/>
+<input type="button" value="sendStringMessage" onclick="sendMessage('哈哈哈哈哈哈哈哈')" /><br/>
+
+</body>
+</html>

@@ -5,7 +5,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LWUIWebController : UIViewController
+@interface LWUIWebController : UIViewController<UIWebViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 

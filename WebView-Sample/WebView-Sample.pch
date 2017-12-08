@@ -11,5 +11,6 @@
 @import PPDBLUtils;
 @import PPDBLRouter;
 @import PPDBLWebViewJSBridge;
+@import JavaScriptCore;
 
 #endif

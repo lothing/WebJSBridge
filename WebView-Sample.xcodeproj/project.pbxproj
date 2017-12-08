@@ -9,28 +9,34 @@
 /* Begin PBXBuildFile section */
 		420362609ABA044D6E5D3A26 /* libPods-WebView-Sample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D50B16C0B6BFB53DE98372 /* libPods-WebView-Sample.a */; };
 		BEF060A4E02661F2040DCD9D /* PPDOrderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF06CCDAE0164CBE48D38DC /* PPDOrderListViewController.m */; };
+		BEF061AB3B1623968E926201 /* demo.html in Resources */ = {isa = PBXBuildFile; fileRef = BEF064980ACA99FF4994510E /* demo.html */; };
+		BEF062FC13DBF44D914F42AE /* ppdtest.html in Resources */ = {isa = PBXBuildFile; fileRef = BEF06CE2B923AF3D5FCCAD9B /* ppdtest.html */; };
 		BEF06434A12CA949F3C66DF8 /* LWMesageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF06D38A61669BE503E82F3 /* LWMesageHandler.m */; };
 		BEF064E7E057FDA97E1EEE57 /* LWUIWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF060372AED9310199CA4C9 /* LWUIWebController.m */; };
+		BEF06568F803D758EBC3E8CA /* jppd-1.0.0.js in Sources */ = {isa = PBXBuildFile; fileRef = BEF0642D06F3117B52A3DF25 /* jppd-1.0.0.js */; };
+		BEF066019CF99D2EBC3BB873 /* ppdtest.js in Sources */ = {isa = PBXBuildFile; fileRef = BEF065265B527C7408ECB65B /* ppdtest.js */; };
 		BEF068BBCD93D1D64C9D075C /* UIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF0638993AEC696A58C0975 /* UIWebViewController.m */; };
 		BEF069B1257B3B1A339799FE /* LWWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF0624AE832D777EAE0E887 /* LWWKWebViewController.m */; };
+		BEF06AA68768B8EDBAD2BCAC /* ppdtest.css in Resources */ = {isa = PBXBuildFile; fileRef = BEF068CDC311EBB403EA1BCF /* ppdtest.css */; };
 		BEF06AB0115EB72F58BCA862 /* PPDJSBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF06EA932581AFA51A6C8E9 /* PPDJSBUtils.m */; };
 		BEF06C19C4B420955596E954 /* EnterPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF06291D5D470AAE5C80730 /* EnterPointViewController.m */; };
+		BEF06CF1C7D74C13E438945D /* ppd-bridge-0.0.1.js in Sources */ = {isa = PBXBuildFile; fileRef = BEF068C3FD5F7C3A7B2ABEA7 /* ppd-bridge-0.0.1.js */; };
+		BEF06D1779E3453F9ACEC877 /* jTest.js in Sources */ = {isa = PBXBuildFile; fileRef = BEF065CB79C868F181A2DEEF /* jTest.js */; };
 		BEF06DA59A679536F05ABA67 /* JSBridgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF068311E7BB37DE356CC55 /* JSBridgeViewController.m */; };
 		BEF06F24788AC48A3AAB53BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF0671E1735A183E2B2E5BA /* AppDelegate.m */; };
 		BEF06F718BA585DACD5858F1 /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF067F9D75E3936B044A201 /* WKWebViewController.m */; };
-		EAC202511FDA6964002DFD66 /* demo.html in Resources */ = {isa = PBXBuildFile; fileRef = EAC202501FDA6964002DFD66 /* demo.html */; };
+		EAC202521FDA867D002DFD66 /* jppd-1.0.0.js in Resources */ = {isa = PBXBuildFile; fileRef = BEF0642D06F3117B52A3DF25 /* jppd-1.0.0.js */; };
+		EAC202531FDA867D002DFD66 /* ppd-bridge-0.0.1.js in Resources */ = {isa = PBXBuildFile; fileRef = BEF068C3FD5F7C3A7B2ABEA7 /* ppd-bridge-0.0.1.js */; };
+		EAC202541FDA867D002DFD66 /* ppdtest.js in Resources */ = {isa = PBXBuildFile; fileRef = BEF065265B527C7408ECB65B /* ppdtest.js */; };
+		EAC202551FDA867D002DFD66 /* jTest.js in Resources */ = {isa = PBXBuildFile; fileRef = BEF065CB79C868F181A2DEEF /* jTest.js */; };
+		EAC202561FDA867D002DFD66 /* LWTest.html in Resources */ = {isa = PBXBuildFile; fileRef = BEF06FF2A8BB73C847B6DB36 /* LWTest.html */; };
+		EAC202581FDA894E002DFD66 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC202571FDA8943002DFD66 /* JavaScriptCore.framework */; };
 		EAD12D3D1FDA2D90006E63AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD12D3B1FDA2D90006E63AB /* Main.storyboard */; };
 		EAD12D3F1FDA2D90006E63AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD12D3E1FDA2D90006E63AB /* Assets.xcassets */; };
 		EAD12D421FDA2D90006E63AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD12D401FDA2D90006E63AB /* LaunchScreen.storyboard */; };
 		EAD12D451FDA2D90006E63AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD12D441FDA2D90006E63AB /* main.m */; };
 		EAD12D531FDA3D3F006E63AB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD12D521FDA3D30006E63AB /* WebKit.framework */; };
 		EAD12D561FDA6260006E63AB /* PPDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD12D541FDA6260006E63AB /* PPDLoginViewController.m */; };
-		EAD12D5A1FDA639D006E63AB /* ppdtest.css in Resources */ = {isa = PBXBuildFile; fileRef = EAD12D571FDA639D006E63AB /* ppdtest.css */; };
-		EAD12D5B1FDA639D006E63AB /* ppdtest.html in Resources */ = {isa = PBXBuildFile; fileRef = EAD12D581FDA639D006E63AB /* ppdtest.html */; };
-		EAD12D5C1FDA639D006E63AB /* ppdtest.js in Resources */ = {isa = PBXBuildFile; fileRef = EAD12D591FDA639D006E63AB /* ppdtest.js */; };
-		EAD12D601FDA63BB006E63AB /* ppd-bridge-0.0.1.js in Resources */ = {isa = PBXBuildFile; fileRef = EAD12D5D1FDA63BB006E63AB /* ppd-bridge-0.0.1.js */; };
-		EAD12D611FDA63BB006E63AB /* jTest.js in Resources */ = {isa = PBXBuildFile; fileRef = EAD12D5E1FDA63BB006E63AB /* jTest.js */; };
-		EAD12D621FDA63BB006E63AB /* jppd-1.0.0.js in Resources */ = {isa = PBXBuildFile; fileRef = EAD12D5F1FDA63BB006E63AB /* jppd-1.0.0.js */; };
 		EAD12D651FDA63D8006E63AB /* WebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD12D631FDA63D8006E63AB /* WebVC.m */; };
 /* End PBXBuildFile section */
 
@@ -42,11 +48,17 @@
 		BEF06291D5D470AAE5C80730 /* EnterPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterPointViewController.m; sourceTree = "<group>"; };
 		BEF0638993AEC696A58C0975 /* UIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewController.m; sourceTree = "<group>"; };
 		BEF063EB75CD8AC73CECCB04 /* JSBridgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBridgeViewController.h; sourceTree = "<group>"; };
+		BEF0642D06F3117B52A3DF25 /* jppd-1.0.0.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jppd-1.0.0.js"; sourceTree = "<group>"; };
+		BEF064980ACA99FF4994510E /* demo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo.html; sourceTree = "<group>"; };
+		BEF065265B527C7408ECB65B /* ppdtest.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ppdtest.js; sourceTree = "<group>"; };
+		BEF065CB79C868F181A2DEEF /* jTest.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jTest.js; sourceTree = "<group>"; };
 		BEF066F70AA86A8DC97645F1 /* WebView-Sample.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WebView-Sample.pch"; sourceTree = "<group>"; };
 		BEF0671E1735A183E2B2E5BA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BEF067F9D75E3936B044A201 /* WKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
 		BEF068311E7BB37DE356CC55 /* JSBridgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBridgeViewController.m; sourceTree = "<group>"; };
 		BEF068A78BD54C8A76DD12DB /* PPDOrderListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDOrderListViewController.h; sourceTree = "<group>"; };
+		BEF068C3FD5F7C3A7B2ABEA7 /* ppd-bridge-0.0.1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ppd-bridge-0.0.1.js"; sourceTree = "<group>"; };
+		BEF068CDC311EBB403EA1BCF /* ppdtest.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ppdtest.css; sourceTree = "<group>"; };
 		BEF0691A9732F852E399629C /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
 		BEF06A937FDE8FB7B4671BA9 /* UIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewController.h; sourceTree = "<group>"; };
 		BEF06AE716890B4AEA3361A8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,12 +66,14 @@
 		BEF06BAC666F69DF2D9E288E /* PPDJSBUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDJSBUtils.h; sourceTree = "<group>"; };
 		BEF06C85D109F514008608C0 /* LWWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWWKWebViewController.h; sourceTree = "<group>"; };
 		BEF06CCDAE0164CBE48D38DC /* PPDOrderListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDOrderListViewController.m; sourceTree = "<group>"; };
+		BEF06CE2B923AF3D5FCCAD9B /* ppdtest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ppdtest.html; sourceTree = "<group>"; };
 		BEF06D38A61669BE503E82F3 /* LWMesageHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWMesageHandler.m; sourceTree = "<group>"; };
 		BEF06EA932581AFA51A6C8E9 /* PPDJSBUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDJSBUtils.m; sourceTree = "<group>"; };
 		BEF06EE3B174B3CFF6CC7D3C /* LWUIWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWUIWebController.h; sourceTree = "<group>"; };
+		BEF06FF2A8BB73C847B6DB36 /* LWTest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LWTest.html; sourceTree = "<group>"; };
 		C013AE3BA6225829D9CA77F5 /* Pods-WebView-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebView-Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebView-Sample/Pods-WebView-Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		CEE347DDABD49E24B053A7EF /* Pods-WebView-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebView-Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebView-Sample/Pods-WebView-Sample.release.xcconfig"; sourceTree = "<group>"; };
-		EAC202501FDA6964002DFD66 /* demo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo.html; sourceTree = "<group>"; };
+		EAC202571FDA8943002DFD66 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		EAD12D321FDA2D8F006E63AB /* WebView-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WebView-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD12D3C1FDA2D90006E63AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EAD12D3E1FDA2D90006E63AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,12 +83,6 @@
 		EAD12D521FDA3D30006E63AB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		EAD12D541FDA6260006E63AB /* PPDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDLoginViewController.m; sourceTree = "<group>"; };
 		EAD12D551FDA6260006E63AB /* PPDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDLoginViewController.h; sourceTree = "<group>"; };
-		EAD12D571FDA639D006E63AB /* ppdtest.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ppdtest.css; sourceTree = "<group>"; };
-		EAD12D581FDA639D006E63AB /* ppdtest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ppdtest.html; sourceTree = "<group>"; };
-		EAD12D591FDA639D006E63AB /* ppdtest.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ppdtest.js; sourceTree = "<group>"; };
-		EAD12D5D1FDA63BB006E63AB /* ppd-bridge-0.0.1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "ppd-bridge-0.0.1.js"; sourceTree = "<group>"; };
-		EAD12D5E1FDA63BB006E63AB /* jTest.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jTest.js; sourceTree = "<group>"; };
-		EAD12D5F1FDA63BB006E63AB /* jppd-1.0.0.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jppd-1.0.0.js"; sourceTree = "<group>"; };
 		EAD12D631FDA63D8006E63AB /* WebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebVC.m; sourceTree = "<group>"; };
 		EAD12D641FDA63D8006E63AB /* WebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebVC.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC202581FDA894E002DFD66 /* JavaScriptCore.framework in Frameworks */,
 				EAD12D531FDA3D3F006E63AB /* WebKit.framework in Frameworks */,
 				420362609ABA044D6E5D3A26 /* libPods-WebView-Sample.a in Frameworks */,
 			);
@@ -101,15 +110,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BEF0605D7EC78CC8D4010D66 /* NoJSBdridge */ = {
+			isa = PBXGroup;
+			children = (
+				BEF06FF2A8BB73C847B6DB36 /* LWTest.html */,
+			);
+			path = NoJSBdridge;
+			sourceTree = "<group>";
+		};
 		BEF06242EAEC9B7A554C3FD4 /* NoJsBridge */ = {
 			isa = PBXGroup;
 			children = (
-				BEF06291D5D470AAE5C80730 /* EnterPointViewController.m */,
 				BEF060DFBC81357B9E28B465 /* EnterPointViewController.h */,
-				BEF060372AED9310199CA4C9 /* LWUIWebController.m */,
+				BEF06291D5D470AAE5C80730 /* EnterPointViewController.m */,
 				BEF06EE3B174B3CFF6CC7D3C /* LWUIWebController.h */,
-				BEF0624AE832D777EAE0E887 /* LWWKWebViewController.m */,
+				BEF060372AED9310199CA4C9 /* LWUIWebController.m */,
 				BEF06C85D109F514008608C0 /* LWWKWebViewController.h */,
+				BEF0624AE832D777EAE0E887 /* LWWKWebViewController.m */,
 			);
 			path = NoJsBridge;
 			sourceTree = "<group>";
@@ -130,13 +147,8 @@
 		BEF06462F54D84AAABEE408B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EAC202501FDA6964002DFD66 /* demo.html */,
-				EAD12D5F1FDA63BB006E63AB /* jppd-1.0.0.js */,
-				EAD12D5E1FDA63BB006E63AB /* jTest.js */,
-				EAD12D5D1FDA63BB006E63AB /* ppd-bridge-0.0.1.js */,
-				EAD12D571FDA639D006E63AB /* ppdtest.css */,
-				EAD12D581FDA639D006E63AB /* ppdtest.html */,
-				EAD12D591FDA639D006E63AB /* ppdtest.js */,
+				BEF06C5A7181ACCB1B9D7A7A /* WebViewJSBridge */,
+				BEF0605D7EC78CC8D4010D66 /* NoJSBdridge */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -157,6 +169,20 @@
 				BEF06BAC666F69DF2D9E288E /* PPDJSBUtils.h */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		BEF06C5A7181ACCB1B9D7A7A /* WebViewJSBridge */ = {
+			isa = PBXGroup;
+			children = (
+				BEF068CDC311EBB403EA1BCF /* ppdtest.css */,
+				BEF0642D06F3117B52A3DF25 /* jppd-1.0.0.js */,
+				BEF068C3FD5F7C3A7B2ABEA7 /* ppd-bridge-0.0.1.js */,
+				BEF065265B527C7408ECB65B /* ppdtest.js */,
+				BEF064980ACA99FF4994510E /* demo.html */,
+				BEF065CB79C868F181A2DEEF /* jTest.js */,
+				BEF06CE2B923AF3D5FCCAD9B /* ppdtest.html */,
+			);
+			path = WebViewJSBridge;
 			sourceTree = "<group>";
 		};
 		BEF06C635713C8D7F78FFE91 /* ViewController */ = {
@@ -230,6 +256,7 @@
 		EAD12D511FDA3D30006E63AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EAC202571FDA8943002DFD66 /* JavaScriptCore.framework */,
 				EAD12D521FDA3D30006E63AB /* WebKit.framework */,
 				26D50B16C0B6BFB53DE98372 /* libPods-WebView-Sample.a */,
 			);
@@ -297,16 +324,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC202521FDA867D002DFD66 /* jppd-1.0.0.js in Resources */,
+				EAC202531FDA867D002DFD66 /* ppd-bridge-0.0.1.js in Resources */,
+				EAC202541FDA867D002DFD66 /* ppdtest.js in Resources */,
+				EAC202551FDA867D002DFD66 /* jTest.js in Resources */,
+				EAC202561FDA867D002DFD66 /* LWTest.html in Resources */,
 				EAD12D421FDA2D90006E63AB /* LaunchScreen.storyboard in Resources */,
-				EAD12D5C1FDA639D006E63AB /* ppdtest.js in Resources */,
 				EAD12D3F1FDA2D90006E63AB /* Assets.xcassets in Resources */,
-				EAD12D621FDA63BB006E63AB /* jppd-1.0.0.js in Resources */,
-				EAD12D5A1FDA639D006E63AB /* ppdtest.css in Resources */,
-				EAD12D601FDA63BB006E63AB /* ppd-bridge-0.0.1.js in Resources */,
-				EAD12D611FDA63BB006E63AB /* jTest.js in Resources */,
 				EAD12D3D1FDA2D90006E63AB /* Main.storyboard in Resources */,
-				EAD12D5B1FDA639D006E63AB /* ppdtest.html in Resources */,
-				EAC202511FDA6964002DFD66 /* demo.html in Resources */,
+				BEF06AA68768B8EDBAD2BCAC /* ppdtest.css in Resources */,
+				BEF061AB3B1623968E926201 /* demo.html in Resources */,
+				BEF062FC13DBF44D914F42AE /* ppdtest.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +430,10 @@
 				BEF06C19C4B420955596E954 /* EnterPointViewController.m in Sources */,
 				BEF064E7E057FDA97E1EEE57 /* LWUIWebController.m in Sources */,
 				BEF069B1257B3B1A339799FE /* LWWKWebViewController.m in Sources */,
+				BEF06568F803D758EBC3E8CA /* jppd-1.0.0.js in Sources */,
+				BEF06CF1C7D74C13E438945D /* ppd-bridge-0.0.1.js in Sources */,
+				BEF066019CF99D2EBC3BB873 /* ppdtest.js in Sources */,
+				BEF06D1779E3453F9ACEC877 /* jTest.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

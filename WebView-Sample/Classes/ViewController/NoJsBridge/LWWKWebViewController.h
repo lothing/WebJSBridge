@@ -6,7 +6,8 @@
 #import <UIKit/UIKit.h>
 #import <WebKit/WebKit.h>
 
-@interface LWWKWebViewController : UIViewController
+@interface LWWKWebViewController : UIViewController<WKNavigationDelegate, WKUIDelegate,WKScriptMessageHandler>
+
 @property (weak, nonatomic) IBOutlet WKWebView *webView;
 
 @end
