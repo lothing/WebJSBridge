@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "GCDWebServer.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    GCDWebServer* webServer = [[GCDWebServer alloc] init];
+    [webServer addGETHandlerForBasePath:@"/" directoryPath:NSHomeDirectory() indexFilename:nil cacheAge:3600 allowRangeRequests:YES];
+    [webServer startWithPort:80 bonjourName:@"WebView-Sample"];
 
     [[PPDBLAdapterConfiguration sharedInstance] injectImplWithClass:[PPDBLURLNavigator class] withProtocol:@protocol(PPDBLURLNavigator)];
 

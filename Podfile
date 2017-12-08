@@ -6,6 +6,8 @@ platform :ios, "8.0"
 
 target 'WebView-Sample' do
 
+pod "GCDWebServer"
+
 pod "PPDBLCore"
 pod "PPDBLUtils"
 

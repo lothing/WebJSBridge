@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  JSBridgeViewController.m
 //  WebView-Sample
 //
 //  Created by Luo Wei on 2017/12/8.
 //  Copyright © 2017年 wodedata. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "JSBridgeViewController.h"
 
-@interface ViewController ()
+@interface JSBridgeViewController ()
 
 @end
 
-@implementation ViewController
+@implementation JSBridgeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -10,11 +10,14 @@
 		420362609ABA044D6E5D3A26 /* libPods-WebView-Sample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D50B16C0B6BFB53DE98372 /* libPods-WebView-Sample.a */; };
 		BEF060A4E02661F2040DCD9D /* PPDOrderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF06CCDAE0164CBE48D38DC /* PPDOrderListViewController.m */; };
 		BEF06434A12CA949F3C66DF8 /* LWMesageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF06D38A61669BE503E82F3 /* LWMesageHandler.m */; };
-		BEF0643AF93F56BBB6320078 /* UIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF06C8DAAEC8DE21AF40283 /* UIWebViewController.m */; };
-		BEF06916BA5D8493592D9266 /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF06FB9DE98075303C874DF /* WKWebViewController.m */; };
+		BEF064E7E057FDA97E1EEE57 /* LWUIWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF060372AED9310199CA4C9 /* LWUIWebController.m */; };
+		BEF068BBCD93D1D64C9D075C /* UIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF0638993AEC696A58C0975 /* UIWebViewController.m */; };
+		BEF069B1257B3B1A339799FE /* LWWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF0624AE832D777EAE0E887 /* LWWKWebViewController.m */; };
 		BEF06AB0115EB72F58BCA862 /* PPDJSBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF06EA932581AFA51A6C8E9 /* PPDJSBUtils.m */; };
-		BEF06EB5FCDDF7BF8D12D9A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF06C53684A29321C9A1548 /* ViewController.m */; };
+		BEF06C19C4B420955596E954 /* EnterPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF06291D5D470AAE5C80730 /* EnterPointViewController.m */; };
+		BEF06DA59A679536F05ABA67 /* JSBridgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF068311E7BB37DE356CC55 /* JSBridgeViewController.m */; };
 		BEF06F24788AC48A3AAB53BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF0671E1735A183E2B2E5BA /* AppDelegate.m */; };
+		BEF06F718BA585DACD5858F1 /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF067F9D75E3936B044A201 /* WKWebViewController.m */; };
 		EAC202511FDA6964002DFD66 /* demo.html in Resources */ = {isa = PBXBuildFile; fileRef = EAC202501FDA6964002DFD66 /* demo.html */; };
 		EAD12D3D1FDA2D90006E63AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD12D3B1FDA2D90006E63AB /* Main.storyboard */; };
 		EAD12D3F1FDA2D90006E63AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD12D3E1FDA2D90006E63AB /* Assets.xcassets */; };
@@ -33,21 +36,27 @@
 
 /* Begin PBXFileReference section */
 		26D50B16C0B6BFB53DE98372 /* libPods-WebView-Sample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebView-Sample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEF0629788A7BEF3AF4F0167 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BEF065E67FD4FD68AB6F3C78 /* UIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewController.h; sourceTree = "<group>"; };
+		BEF060372AED9310199CA4C9 /* LWUIWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWUIWebController.m; sourceTree = "<group>"; };
+		BEF060DFBC81357B9E28B465 /* EnterPointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterPointViewController.h; sourceTree = "<group>"; };
+		BEF0624AE832D777EAE0E887 /* LWWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWWKWebViewController.m; sourceTree = "<group>"; };
+		BEF06291D5D470AAE5C80730 /* EnterPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterPointViewController.m; sourceTree = "<group>"; };
+		BEF0638993AEC696A58C0975 /* UIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewController.m; sourceTree = "<group>"; };
+		BEF063EB75CD8AC73CECCB04 /* JSBridgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBridgeViewController.h; sourceTree = "<group>"; };
 		BEF066F70AA86A8DC97645F1 /* WebView-Sample.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WebView-Sample.pch"; sourceTree = "<group>"; };
 		BEF0671E1735A183E2B2E5BA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEF067F9D75E3936B044A201 /* WKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
+		BEF068311E7BB37DE356CC55 /* JSBridgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBridgeViewController.m; sourceTree = "<group>"; };
 		BEF068A78BD54C8A76DD12DB /* PPDOrderListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDOrderListViewController.h; sourceTree = "<group>"; };
+		BEF0691A9732F852E399629C /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
+		BEF06A937FDE8FB7B4671BA9 /* UIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewController.h; sourceTree = "<group>"; };
 		BEF06AE716890B4AEA3361A8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BEF06B5D7119B80FDCA2869B /* LWMesageHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWMesageHandler.h; sourceTree = "<group>"; };
 		BEF06BAC666F69DF2D9E288E /* PPDJSBUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDJSBUtils.h; sourceTree = "<group>"; };
-		BEF06C53684A29321C9A1548 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BEF06C8DAAEC8DE21AF40283 /* UIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewController.m; sourceTree = "<group>"; };
+		BEF06C85D109F514008608C0 /* LWWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWWKWebViewController.h; sourceTree = "<group>"; };
 		BEF06CCDAE0164CBE48D38DC /* PPDOrderListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDOrderListViewController.m; sourceTree = "<group>"; };
 		BEF06D38A61669BE503E82F3 /* LWMesageHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWMesageHandler.m; sourceTree = "<group>"; };
 		BEF06EA932581AFA51A6C8E9 /* PPDJSBUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDJSBUtils.m; sourceTree = "<group>"; };
-		BEF06F1126C2049F5CBEAC0A /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
-		BEF06FB9DE98075303C874DF /* WKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
+		BEF06EE3B174B3CFF6CC7D3C /* LWUIWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWUIWebController.h; sourceTree = "<group>"; };
 		C013AE3BA6225829D9CA77F5 /* Pods-WebView-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebView-Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebView-Sample/Pods-WebView-Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		CEE347DDABD49E24B053A7EF /* Pods-WebView-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebView-Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebView-Sample/Pods-WebView-Sample.release.xcconfig"; sourceTree = "<group>"; };
 		EAC202501FDA6964002DFD66 /* demo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo.html; sourceTree = "<group>"; };
@@ -90,6 +99,19 @@
 				CEE347DDABD49E24B053A7EF /* Pods-WebView-Sample.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		BEF06242EAEC9B7A554C3FD4 /* NoJsBridge */ = {
+			isa = PBXGroup;
+			children = (
+				BEF06291D5D470AAE5C80730 /* EnterPointViewController.m */,
+				BEF060DFBC81357B9E28B465 /* EnterPointViewController.h */,
+				BEF060372AED9310199CA4C9 /* LWUIWebController.m */,
+				BEF06EE3B174B3CFF6CC7D3C /* LWUIWebController.h */,
+				BEF0624AE832D777EAE0E887 /* LWWKWebViewController.m */,
+				BEF06C85D109F514008608C0 /* LWWKWebViewController.h */,
+			);
+			path = NoJsBridge;
 			sourceTree = "<group>";
 		};
 		BEF06304A8B31EEA61CC1228 /* others */ = {
@@ -141,12 +163,8 @@
 			isa = PBXGroup;
 			children = (
 				BEF06304A8B31EEA61CC1228 /* others */,
-				BEF065E67FD4FD68AB6F3C78 /* UIWebViewController.h */,
-				BEF06C8DAAEC8DE21AF40283 /* UIWebViewController.m */,
-				BEF06F1126C2049F5CBEAC0A /* WKWebViewController.h */,
-				BEF06FB9DE98075303C874DF /* WKWebViewController.m */,
-				BEF0629788A7BEF3AF4F0167 /* ViewController.h */,
-				BEF06C53684A29321C9A1548 /* ViewController.m */,
+				BEF06F5B68A7F2FE655E0D3B /* JSBridge */,
+				BEF06242EAEC9B7A554C3FD4 /* NoJsBridge */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -161,6 +179,19 @@
 				BEF06BB82805FA0FC062980A /* Utils */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		BEF06F5B68A7F2FE655E0D3B /* JSBridge */ = {
+			isa = PBXGroup;
+			children = (
+				BEF06A937FDE8FB7B4671BA9 /* UIWebViewController.h */,
+				BEF0638993AEC696A58C0975 /* UIWebViewController.m */,
+				BEF0691A9732F852E399629C /* WKWebViewController.h */,
+				BEF067F9D75E3936B044A201 /* WKWebViewController.m */,
+				BEF068311E7BB37DE356CC55 /* JSBridgeViewController.m */,
+				BEF063EB75CD8AC73CECCB04 /* JSBridgeViewController.h */,
+			);
+			path = JSBridge;
 			sourceTree = "<group>";
 		};
 		EAD12D291FDA2D8F006E63AB = {
@@ -360,14 +391,17 @@
 			files = (
 				EAD12D451FDA2D90006E63AB /* main.m in Sources */,
 				BEF06F24788AC48A3AAB53BA /* AppDelegate.m in Sources */,
-				BEF06916BA5D8493592D9266 /* WKWebViewController.m in Sources */,
-				BEF06EB5FCDDF7BF8D12D9A0 /* ViewController.m in Sources */,
-				BEF0643AF93F56BBB6320078 /* UIWebViewController.m in Sources */,
 				BEF06434A12CA949F3C66DF8 /* LWMesageHandler.m in Sources */,
 				EAD12D651FDA63D8006E63AB /* WebVC.m in Sources */,
 				BEF06AB0115EB72F58BCA862 /* PPDJSBUtils.m in Sources */,
 				EAD12D561FDA6260006E63AB /* PPDLoginViewController.m in Sources */,
 				BEF060A4E02661F2040DCD9D /* PPDOrderListViewController.m in Sources */,
+				BEF068BBCD93D1D64C9D075C /* UIWebViewController.m in Sources */,
+				BEF06F718BA585DACD5858F1 /* WKWebViewController.m in Sources */,
+				BEF06DA59A679536F05ABA67 /* JSBridgeViewController.m in Sources */,
+				BEF06C19C4B420955596E954 /* EnterPointViewController.m in Sources */,
+				BEF064E7E057FDA97E1EEE57 /* LWUIWebController.m in Sources */,
+				BEF069B1257B3B1A339799FE /* LWWKWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

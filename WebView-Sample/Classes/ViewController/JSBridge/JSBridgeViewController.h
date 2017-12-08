@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JSBridgeViewController.h
 //  WebView-Sample
 //
 //  Created by Luo Wei on 2017/12/8.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface JSBridgeViewController : UIViewController
 
 
 @end
