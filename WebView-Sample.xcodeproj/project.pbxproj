@@ -7,25 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EAD12D371FDA2D90006E63AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD12D361FDA2D90006E63AB /* AppDelegate.m */; };
-		EAD12D3A1FDA2D90006E63AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD12D391FDA2D90006E63AB /* ViewController.m */; };
+		420362609ABA044D6E5D3A26 /* libPods-WebView-Sample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D50B16C0B6BFB53DE98372 /* libPods-WebView-Sample.a */; };
+		BEF061C3EB8D22B8AB50089B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF065CBD2B51BA8D60927AC /* ViewController.m */; };
+		BEF06800AE763870A5A83FF5 /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF062A89D7A3A2F66FF91BA /* WKWebViewController.m */; };
+		BEF06878AEA13A58A8B2153E /* UIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF06F4C70E683BB6197C471 /* UIWebViewController.m */; };
+		BEF06F24788AC48A3AAB53BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF0671E1735A183E2B2E5BA /* AppDelegate.m */; };
 		EAD12D3D1FDA2D90006E63AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD12D3B1FDA2D90006E63AB /* Main.storyboard */; };
 		EAD12D3F1FDA2D90006E63AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD12D3E1FDA2D90006E63AB /* Assets.xcassets */; };
 		EAD12D421FDA2D90006E63AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD12D401FDA2D90006E63AB /* LaunchScreen.storyboard */; };
 		EAD12D451FDA2D90006E63AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD12D441FDA2D90006E63AB /* main.m */; };
+		EAD12D531FDA3D3F006E63AB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD12D521FDA3D30006E63AB /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26D50B16C0B6BFB53DE98372 /* libPods-WebView-Sample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebView-Sample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF061A13DFF9B0BE5E0690F /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
+		BEF062A89D7A3A2F66FF91BA /* WKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
+		BEF063F0E810C44EC75F3D58 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BEF065CBD2B51BA8D60927AC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BEF0671E1735A183E2B2E5BA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEF06AE716890B4AEA3361A8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEF06F4C70E683BB6197C471 /* UIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewController.m; sourceTree = "<group>"; };
+		BEF06F75F1105BAF2BE1F102 /* UIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewController.h; sourceTree = "<group>"; };
+		C013AE3BA6225829D9CA77F5 /* Pods-WebView-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebView-Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebView-Sample/Pods-WebView-Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		CEE347DDABD49E24B053A7EF /* Pods-WebView-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebView-Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebView-Sample/Pods-WebView-Sample.release.xcconfig"; sourceTree = "<group>"; };
 		EAD12D321FDA2D8F006E63AB /* WebView-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WebView-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAD12D351FDA2D90006E63AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EAD12D361FDA2D90006E63AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EAD12D381FDA2D90006E63AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EAD12D391FDA2D90006E63AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EAD12D3C1FDA2D90006E63AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EAD12D3E1FDA2D90006E63AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAD12D411FDA2D90006E63AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAD12D431FDA2D90006E63AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAD12D441FDA2D90006E63AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAD12D521FDA3D30006E63AB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +45,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD12D531FDA3D3F006E63AB /* WebKit.framework in Frameworks */,
+				420362609ABA044D6E5D3A26 /* libPods-WebView-Sample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A715515062A685B13AF4E47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C013AE3BA6225829D9CA77F5 /* Pods-WebView-Sample.debug.xcconfig */,
+				CEE347DDABD49E24B053A7EF /* Pods-WebView-Sample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BEF06CBCEAC56267140D1D49 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BEF065CBD2B51BA8D60927AC /* ViewController.m */,
+				BEF063F0E810C44EC75F3D58 /* ViewController.h */,
+				BEF061A13DFF9B0BE5E0690F /* WKWebViewController.h */,
+				BEF06F75F1105BAF2BE1F102 /* UIWebViewController.h */,
+				BEF062A89D7A3A2F66FF91BA /* WKWebViewController.m */,
+				BEF06F4C70E683BB6197C471 /* UIWebViewController.m */,
+				BEF06AE716890B4AEA3361A8 /* AppDelegate.h */,
+				BEF0671E1735A183E2B2E5BA /* AppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		EAD12D291FDA2D8F006E63AB = {
 			isa = PBXGroup;
 			children = (
 				EAD12D341FDA2D8F006E63AB /* WebView-Sample */,
 				EAD12D331FDA2D8F006E63AB /* Products */,
+				EAD12D511FDA3D30006E63AB /* Frameworks */,
+				9A715515062A685B13AF4E47 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +98,23 @@
 		EAD12D341FDA2D8F006E63AB /* WebView-Sample */ = {
 			isa = PBXGroup;
 			children = (
-				EAD12D351FDA2D90006E63AB /* AppDelegate.h */,
-				EAD12D361FDA2D90006E63AB /* AppDelegate.m */,
-				EAD12D381FDA2D90006E63AB /* ViewController.h */,
-				EAD12D391FDA2D90006E63AB /* ViewController.m */,
 				EAD12D3B1FDA2D90006E63AB /* Main.storyboard */,
 				EAD12D3E1FDA2D90006E63AB /* Assets.xcassets */,
 				EAD12D401FDA2D90006E63AB /* LaunchScreen.storyboard */,
 				EAD12D431FDA2D90006E63AB /* Info.plist */,
 				EAD12D441FDA2D90006E63AB /* main.m */,
+				BEF06CBCEAC56267140D1D49 /* Classes */,
 			);
 			path = "WebView-Sample";
+			sourceTree = "<group>";
+		};
+		EAD12D511FDA3D30006E63AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAD12D521FDA3D30006E63AB /* WebKit.framework */,
+				26D50B16C0B6BFB53DE98372 /* libPods-WebView-Sample.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +124,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EAD12D481FDA2D90006E63AB /* Build configuration list for PBXNativeTarget "WebView-Sample" */;
 			buildPhases = (
+				A8CD3BBC4C4AEAEA69365A4E /* [CP] Check Pods Manifest.lock */,
 				EAD12D2E1FDA2D8F006E63AB /* Sources */,
 				EAD12D2F1FDA2D8F006E63AB /* Frameworks */,
 				EAD12D301FDA2D8F006E63AB /* Resources */,
+				E2033D99D311D51A455F8D43 /* [CP] Embed Pods Frameworks */,
+				803254CBBD78A1EF4C237D68 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,14 +186,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		803254CBBD78A1EF4C237D68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebView-Sample/Pods-WebView-Sample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8CD3BBC4C4AEAEA69365A4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebView-Sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2033D99D311D51A455F8D43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WebView-Sample/Pods-WebView-Sample-frameworks.sh",
+				"${PODS_ROOT}/PPDBLCore/fmk/PPDBLCore.framework",
+				"${PODS_ROOT}/PPDBLNetworking/fmk/PPDBLNetworking.framework",
+				"${PODS_ROOT}/PPDBLOpenSSL/openssl.framework",
+				"${PODS_ROOT}/PPDBLRouter/fmk/PPDBLRouter.framework",
+				"${PODS_ROOT}/PPDBLUtils/fmk/PPDBLUtils.framework",
+				"${PODS_ROOT}/PPDBLWebViewJSBridge/fmk/PPDBLWebViewJSBridge.framework",
+				"${PODS_ROOT}/PPDVendorAFNetworking/fmk/PPDVendorAFNetworking.framework",
+				"${PODS_ROOT}/PPDVendorMasonry/fmk/PPDVendorMasonry.framework",
+				"${PODS_ROOT}/PPDVendorUICKeyChainStore/fmk/PPDVendorUICKeyChainStore.framework",
+				"${PODS_ROOT}/PPDVendorYYModel/fmk/PPDVendorYYModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PPDBLCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PPDBLNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PPDBLRouter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PPDBLUtils.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PPDBLWebViewJSBridge.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PPDVendorAFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PPDVendorMasonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PPDVendorUICKeyChainStore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PPDVendorYYModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebView-Sample/Pods-WebView-Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EAD12D2E1FDA2D8F006E63AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAD12D3A1FDA2D90006E63AB /* ViewController.m in Sources */,
 				EAD12D451FDA2D90006E63AB /* main.m in Sources */,
-				EAD12D371FDA2D90006E63AB /* AppDelegate.m in Sources */,
+				BEF061C3EB8D22B8AB50089B /* ViewController.m in Sources */,
+				BEF06800AE763870A5A83FF5 /* WKWebViewController.m in Sources */,
+				BEF06878AEA13A58A8B2153E /* UIWebViewController.m in Sources */,
+				BEF06F24788AC48A3AAB53BA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,11 +399,13 @@
 		};
 		EAD12D491FDA2D90006E63AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C013AE3BA6225829D9CA77F5 /* Pods-WebView-Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G3A2KYKYBU;
 				INFOPLIST_FILE = "WebView-Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wodedata.WebView-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,11 +415,13 @@
 		};
 		EAD12D4A1FDA2D90006E63AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEE347DDABD49E24B053A7EF /* Pods-WebView-Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G3A2KYKYBU;
 				INFOPLIST_FILE = "WebView-Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wodedata.WebView-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
