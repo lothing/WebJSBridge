@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 
-    self.webView.UIDelegate = self;cp
+    self.webView.UIDelegate = self;
     self.webView.navigationDelegate = self;
 
 
