@@ -8,7 +8,7 @@
 
 #import "WebVC.h"
 #import <WebKit/WebKit.h>
-@import PPDBLWebViewJSBridge;
+//@import PPDBLWebViewJSBridge;
 
 @interface WebVC ()<UIWebViewDelegate>
 

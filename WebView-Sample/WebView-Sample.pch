@@ -10,7 +10,11 @@
 @import PPDBLCore;
 @import PPDBLUtils;
 @import PPDBLRouter;
-@import PPDBLWebViewJSBridge;
+//@import PPDBLWebViewJSBridge;
 @import JavaScriptCore;
+
+#import <PPDBLWebViewJSBridge/PPDBLWebViewJSBridge.h>
+#import <PPDBLWebViewJSBridge/PPDBLBaseJSBMessageHandler.h>
+#import <PPDBLWebViewJSBridge/PPDBLJSBHandlerAnnotation.h>
 
 #endif
