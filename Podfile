@@ -12,7 +12,8 @@ pod "PPDBLCore"
 pod "PPDBLUtils"
 
 pod "PPDBLRouter"
-pod "PPDBLWebViewJSBridge", :git => 'http://git.ppdaicorp.com/wireless/PPDBLWebViewJSBridge.git'
+# pod "PPDBLWebViewJSBridge", :git => 'http://git.ppdaicorp.com/wireless/PPDBLWebViewJSBridge.git'
+pod "PPDBLWebViewJSBridge"
 pod "PPDBLNetworking"
 
 pod "PPDVendorMasonry"
