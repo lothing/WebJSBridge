@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  WebView-Sample
 //
-//  Created by Luo Wei on 2017/12/8.
+//  Created by lothing on 2017/12/8.
 //  Copyright © 2017年 wodedata. All rights reserved.
 //
 
