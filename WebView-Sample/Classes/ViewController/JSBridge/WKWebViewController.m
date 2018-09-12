@@ -26,7 +26,7 @@
     _bridge = [PPDBLWebViewJSBridge bridge:self.webView];
     [_bridge setWebViewDelegate:self];
 
-    //    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://m.ppdai.com"]]];
+    //    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://m.wodedata.com"]]];
     [self loadExamplePage];
 }
 

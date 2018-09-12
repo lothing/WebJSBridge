@@ -128,7 +128,7 @@ PPDBLJSBHandler(userLogin, PPDUserLoginHandler);
 - (void)handlerWithData:(id)data responseCallback:(PPDJSBResponseCallback)responseCallback {
     [super handlerWithData:data responseCallback:responseCallback];
 
-    [[PPDBLURLNavigatorAdapter sharedInstance] openUrl:[NSURL URLWithString:@"ppdai://page.ppd/userlogin"] withTarget:[PPDJSBUtils topViewController] params:nil];
+    [[PPDBLURLNavigatorAdapter sharedInstance] openUrl:[NSURL URLWithString:@"wodedata://page.ppd/userlogin"] withTarget:[PPDJSBUtils topViewController] params:nil];
 }
 
 - (void)callback:(id)data {

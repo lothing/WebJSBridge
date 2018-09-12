@@ -77,7 +77,7 @@
     jTest.openWin = function(){
         ppd.call("10010002", {
             url:"https://www.baidu.com?title=百度首页",
-            //url:"ppdai://router.ppdai.com/activity/product/main?a=1&b=2",
+            //url:"wodedata://router.wodedata.com/activity/product/main?a=1&b=2",
             winType:1, //0默认为普通窗口,1为专题,2为笔记详情（特殊的头部、底部栏）
             anmiType:1
         });

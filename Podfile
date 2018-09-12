@@ -1,5 +1,5 @@
-# source 'git@git.ppdaicorp.com:wireless/Specs.git'
-source 'http://git.ppdaicorp.com/wireless/Specs.git'
+# source 'git@git.wodedatacorp.com:wireless/Specs.git'
+source 'http://git.wodedatacorp.com/wireless/Specs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, "8.0"
@@ -12,7 +12,7 @@ pod "PPDBLCore"
 pod "PPDBLUtils"
 
 pod "PPDBLRouter"
-# pod "PPDBLWebViewJSBridge", :git => 'http://git.ppdaicorp.com/wireless/PPDBLWebViewJSBridge.git'
+# pod "PPDBLWebViewJSBridge", :git => 'http://git.wodedatacorp.com/wireless/PPDBLWebViewJSBridge.git'
 pod "PPDBLWebViewJSBridge"
 pod "PPDBLNetworking"
 

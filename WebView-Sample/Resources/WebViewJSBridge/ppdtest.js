@@ -12,21 +12,21 @@ var ppdTest = {};
 //h5首页
 ppdTest.h5HomePage = function() {
 	ppd.call('openWin', {
-		url:"ppdai://page.ppd/webvc?url=https://m.ppdai.com"
+		url:"wodedata://page.ppd/webvc?url=https://m.wodedata.com"
 	});
 }
 
 //h5首页
 ppdTest.urlPage = function() {
 	ppd.call('openWin', {
-		url:"https://m.ppdai.com"
+		url:"https://m.wodedata.com"
 	});
 }
 
 //pushWindow
 ppdTest.pushWindow = function() {
 	ppd.call('openWin', {
-		url:"ppdai://page.ppd/orderlist",
+		url:"wodedata://page.ppd/orderlist",
 		params:{
 			orderType:100
 		}
